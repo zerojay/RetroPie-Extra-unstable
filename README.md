@@ -19,6 +19,7 @@ This repository is for holding all of my work that isn't ready for inclusion in 
 - [ ] - f2bgl.sh - Fade To Black engine - Segfaults on launch.  
 - [ ] - freedink.sh - Dink Smallwood engine - Lots of flicker on sprites and text, currently unsolved. Works well otherwise.  
 - [ ] - freegish.sh - Gish clone - Runs with glshim however very, very slowly. Might need some additional glshim options.  
+- [ ] - fruity.sh - Fruity Game - Cannot load font?
 - [ ] - kodi.sh - Media Player - Installs v16 for Raspbian Jessie ONLY. Currently untested.  
 - [ ] - minetest.sh - Minecraft Clone - Tested and works with lowest resolution and settings, burningsvideo driver. Embed low options as default?  
 - [ ] - moonlight.sh - Open Source nVidia GameStreaming - A newer package is available, currently untested.  
