@@ -20,6 +20,7 @@ This repository is for holding all of my work that isn't ready for inclusion in 
 - [ ] - freedink.sh - Dink Smallwood engine - Lots of flicker on sprites and text, currently unsolved. Works well otherwise.  
 - [ ] - freegish.sh - Gish clone - Runs with glshim however very, very slowly. Might need some additional glshim options.  
 - [ ] - kodi.sh - Media Player - Installs v16 for Raspbian Jessie ONLY. Currently untested.  
+- [ ] - minetest.sh - Minecraft Clone - Tested and works with lowest resolution and settings, burningsvideo driver. Embed low options as default?  
 - [ ] - moonlight.sh - Open Source nVidia GameStreaming - A newer package is available, currently untested.  
 - [ ] - openfodder.sh - Open source Cannon Fodder engine - Instable, crashes during second mission.  
 - [ ] - umario.sh - Super Mario Bros. Remake - Runs but doesn't scale properly. Fix incoming soon.
