@@ -11,7 +11,7 @@
 
 rp_module_id="alephone-community"
 rp_module_desc="AlephOne Community - 5 Community-Made Marathon Scenarios (1GB)"
-rp_module_menus="4+"
+rp_module_section="exp"
 rp_module_flags="!x11 !mali"
 
 function configure_alephone-community() {
@@ -66,6 +66,6 @@ function configure_alephone-community() {
     addPort "$md_id" "marathonred" "Aleph One Engine - Marathon RED" "$ourpath/alephone/bin/alephone '$romdir/ports/alephone/Marathon RED/'"
     addPort "$md_id" "marathoneternal" "Aleph One Engine - Eternal" "$ourpath/alephone/bin/alephone '$romdir/ports/alephone/Eternal 1.1.0/'"
     addPort "$md_id" "marathonphoenix" "Aleph One Engine - Marathon Phoenix" "$ourpath/alephone/bin/alephone '$romdir/ports/alephone/Marathon Phoenix/'"
-    __INFMSGS+=("These games require the alephone source port to be installed to run. To get the games running, make sure to set each game to use the software renderer and disable the enhanced HUD from the Plugins menu.")
+    rp_module_help="These games require the alephone source port to be installed to run. To get the games running, make sure to set each game to use the software renderer and disable the enhanced HUD from the Plugins menu."
 
 }

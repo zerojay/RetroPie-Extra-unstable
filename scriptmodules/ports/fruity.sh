@@ -11,8 +11,8 @@
 
 rp_module_id="fruity"
 rp_module_desc="Fruity"
-rp_module_menus="4+"
-rp_module_flags="nobin !x86 !mali"
+rp_module_section="exp"
+rp_module_flags="!x86 !mali"
 
 function install_fruity() {
     wget http://www.retroguru.com/fruity/fruity-v.latest-raspberrypi.zip -O "$md_inst/fruity.zip"

@@ -11,8 +11,8 @@
 
 rp_module_id="moonlight"
 rp_module_desc="moonlight - Open Source nVidia GameStream"
-rp_module_menus="4+"
-rp_module_flags="nobin !mali !x86"
+rp_module_section="exp"
+rp_module_flags="!mali !x86"
 
 function depends_moonlight() {
     if [[ "$__raspbian_ver" -lt 8 ]]; then
@@ -23,7 +23,7 @@ function depends_moonlight() {
     apt-get update
 }
 
-function install_moonlight() {
+function install_bin_moonlight() {
     aptInstall moonlight-embedded
 }
 
@@ -33,5 +33,5 @@ function configure_moonlight() {
     addPort "$md_id" "moonlight" "moonlight - Open Source nVidia GameStream (720p 30fps)" "$md_inst/moonlight stream 192.168.0.101 -720 -30fps -mapping $configdir/$md_id/controllername.map"
     addPort "$md_id" "moonlight" "moonlight - Open Source nVidia GameStream (720p 60fps)" "$md_inst/moonlight stream 192.168.0.101 -720 -60fps -mapping $configdir/$md_id/controllername.map"
     addPort "$md_id" "moonlight" "moonlight - Open Source nVidia GameStream (1080p 30fps)" "$md_inst/moonlight stream 192.168.0.101 -1080 -30fps -mapping $configdir/$md_id/controllername.map"
-    __INFMSGS+=("To complete moonlight setup, you will need to manually pair moonlight to your PC (moonlight pair [ip address]) and then set up a controller mapping (moonlight map $configdir/$md_id/controllername.map). You will then need to edit $configdir/$md_id/emulators.cfg to match the ip address and controller mapping file name.")
+    rp_module_help="To complete moonlight setup, you will need to manually pair moonlight to your PC (moonlight pair [ip address]) and then set up a controller mapping (moonlight map $configdir/$md_id/controllername.map). You will then need to edit $configdir/$md_id/emulators.cfg to match the ip address and controller mapping file name."
 }

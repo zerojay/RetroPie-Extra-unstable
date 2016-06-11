@@ -11,10 +11,10 @@
 
 rp_module_id="freedink"
 rp_module_desc="FreeDink - Dink Smallwood Engine"
-rp_module_menus="4+"
-rp_module_flags="nobin !mali !x86"
+rp_module_section="exp"
+rp_module_flags="!mali !x86"
 
-function install_freedink() {
+function install_bin_freedink() {
     aptInstall freedink
 }
 

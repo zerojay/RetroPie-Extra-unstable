@@ -11,7 +11,7 @@
 
 rp_module_id="lr-craft"
 rp_module_desc="Craft - a libretro-based Minecraft clone"
-rp_module_menus="4+"
+rp_module_section="exp"
 rp_module_flags="!arm"
 
 function sources_lr-craft() {

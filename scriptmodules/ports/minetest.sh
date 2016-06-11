@@ -11,7 +11,7 @@
 
 rp_module_id="minetest"
 rp_module_desc="Minetest - Minecraft Clone"
-rp_module_menus="4+"
+rp_module_section="exp"
 rp_module_flags="!mali !x86"
 
 function depends_minetest() {
