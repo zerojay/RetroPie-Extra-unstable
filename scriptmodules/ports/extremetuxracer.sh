@@ -11,8 +11,8 @@
  
 rp_module_id="extremetuxracer"
 rp_module_desc="ExtremeTuxRacer"
-rp_module_menus="4+"
-rp_module_flags="nobin !mali !x86"
+rp_module_section="exp"
+rp_module_flags="!mali !x86"
  
 function depends_extremetuxracer() {
     getDepends cmake xorg
@@ -30,7 +30,7 @@ function build_extremetuxracer() {
     make GL
 }
 
-function install_extremetuxracer() {
+function install_bin_extremetuxracer() {
     aptInstall extremetuxracer
     if [ ! -a "/opt/retropie/supplementary/glshim/libGL.so.1" ]; then
        mkdir -p /opt/retropie/supplementary/glshim/

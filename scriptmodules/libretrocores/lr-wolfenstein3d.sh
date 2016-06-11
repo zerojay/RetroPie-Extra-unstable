@@ -9,7 +9,7 @@
 
 rp_module_id="lr-wolfenstein3d"
 rp_module_desc="Chocolate Wolfenstein 3d based on Wolf4SDL"
-rp_module_menus="4+"
+rp_module_section="exp"
 
 function sources_lr-wolfenstein3d() {
     gitPullOrClone "$md_build" https://github.com/libretro/libretro-wolfenstein3d.git

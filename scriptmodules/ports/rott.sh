@@ -11,7 +11,7 @@
 
 rp_module_id="rott"
 rp_module_desc="rott - Rise of the Triad port"
-rp_module_menus="4+"
+rp_module_section="exp"
 rp_module_flags="!mali !x86"
 
 function depends_rott() {
@@ -56,5 +56,5 @@ function configure_rott() {
 
     addPort "$md_id" "rott" "rott - Rise of the Triad port" "$md_inst/bin/rott"
     addPort "$md_id" "rott-shareware" "rott - Rise of the Triad port Shareware" "$md_inst/bin/rott-shareware"
-    __INFMSGS+=("Please add your full version ROTT files to $romdir/ports/$md_id/ to play.")
+    rp_module_help="Please add your full version ROTT files to $romdir/ports/$md_id/ to play."
 }

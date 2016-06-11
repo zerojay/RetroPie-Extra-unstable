@@ -11,7 +11,7 @@
 
 rp_module_id="beebem"
 rp_module_desc="beebem - BBC Micro Emulator"
-rp_module_menus="4+"
+rp_module_section="exp"
 rp_module_flags="!x86 !mali"
 
 function depends_beebem() {

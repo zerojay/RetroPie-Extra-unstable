@@ -11,7 +11,7 @@
 
 rp_module_id="f2bgl"
 rp_module_desc="f2bgl - Fade To Black Engine"
-rp_module_menus="4+"
+rp_module_section="exp"
 rp_module_flags="!mali !x86"
 
 function depends_f2bgl() {
@@ -35,5 +35,5 @@ function configure_f2bgl() {
     mkRomDir "ports/$md_id"
 
     addPort "$md_id" "f2bgl" "f2bgl - Fade To Black Engine" "$md_inst/f2bgl --datapath=$romdir/ports/$md_id"
-    __INFMSGS+=("Please copy your Fade To Black data files to $romdir/ports/$md_id before running f2bgl.")
+    rp_module_help="Please copy your Fade To Black data files to $romdir/ports/$md_id before running f2bgl."
 }

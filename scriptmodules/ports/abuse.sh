@@ -11,14 +11,14 @@
 
 rp_module_id="abuse"
 rp_module_desc="Abuse"
-rp_module_menus="4+"
-rp_module_flags="nobin !mali !x86"
+rp_module_section="exp"
+rp_module_flags="!mali !x86"
 
 function depends_abuse() {
     getDepends xorg
 }
 
-function install_abuse() {
+function install_bin_abuse() {
     
     aptInstall abuse abuse-sfx
 }

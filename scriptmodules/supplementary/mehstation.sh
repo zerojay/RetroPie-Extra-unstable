@@ -11,7 +11,7 @@
 
 rp_module_id="mehstation"
 rp_module_desc="mehstation"
-rp_module_menus="4+"
+rp_module_section="exp"
 
 function depends_mehstation() {
     getDepends git cmake build-essential libfreeimage-dev libopenal-dev libpango1.0-dev libsndfile1-dev libudev-dev libasound2-dev libjpeg-dev libtiff5-dev libwebp-dev automake cmake libsqlite3-dev libavutil-dev libavcodec-dev libavformat-dev libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev
