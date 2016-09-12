@@ -14,6 +14,10 @@ rp_module_desc="FreeDink - Dink Smallwood Engine"
 rp_module_section="exp"
 rp_module_flags="!mali !x86"
 
+function depends_freedink() {
+    getDepends xorg
+}
+
 function install_bin_freedink() {
     aptInstall freedink
 }
@@ -22,5 +26,5 @@ function configure_freedink() {
     mkRomDir "ports"
     moveConfigDir "$home/.dink" "$md_conf_root/$md_id"
 
-    addPort "$md_id" "freedink" "FreeDink - Dink Smallwood Engine" "freedink"
+    addPort "$md_id" "freedink" "FreeDink - Dink Smallwood Engine" "xinit freedink"
 }
