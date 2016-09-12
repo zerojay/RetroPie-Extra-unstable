@@ -17,7 +17,6 @@ This repository is for holding all of my work that isn't ready for inclusion in 
 - [ ] - alephone-community.sh - Additional scenarios for AlephOne - Some instability with Alephone on Raspberry Pi. Working on it.  
 - [ ] - caveexpress.sh - Cave Express game - Not working, some major compilation issues.  
 - [ ] - f2bgl.sh - Fade To Black engine - Segfaults on launch.  
-- [ ] - freedink.sh - Dink Smallwood engine - Lots of flicker on sprites and text, currently unsolved. Works well otherwise.  
 - [ ] - freegish.sh - Gish clone - Runs with glshim however very, very slowly. Might need some additional glshim options.  
 - [ ] - fruity.sh - Fruity Game - Cannot load font?
 - [ ] - kodi.sh - Media Player - Installs v16 for Raspbian Jessie ONLY. Currently untested.  
@@ -29,3 +28,6 @@ This repository is for holding all of my work that isn't ready for inclusion in 
 ##### Supplementary
 - [ ] - exodos-setup.sh - Setup script for adding working eXoDOS collection to EmulationStation - Not completed yet. See https://github.com/zerojay/RetroPie-Extra/issues/76
 - [ ] - mehstation.sh - Emulator frontend - Currently untested, unfinished script. Not able to replace emulationstation yet. 
+
+### Hall of Fame - Scripts accepted into RetroPie-Extra
+- [X] - freedink.sh - Dink Smallwood engine - Lots of flicker on sprites and text, currently solved. Tested and works well.  
