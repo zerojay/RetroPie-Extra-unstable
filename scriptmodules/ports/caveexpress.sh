@@ -11,6 +11,7 @@
 
 rp_module_id="caveexpress"
 rp_module_desc="Cave Express - Physics-Based 2D Platformer"
+rp_module_licence="GPL3 https://raw.githubusercontent.com/mgerhardy/caveexpress/master/gpl-3.0.txt"
 rp_module_section="exp"
 rp_module_flags="!x86 !mail"
 

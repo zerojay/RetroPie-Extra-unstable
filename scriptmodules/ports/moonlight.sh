@@ -11,6 +11,7 @@
 
 rp_module_id="moonlight"
 rp_module_desc="moonlight - Open Source nVidia GameStream"
+rp_module_licence="GPL3 https://raw.githubusercontent.com/irtimmer/moonlight-embedded/master/LICENSE"
 rp_module_section="exp"
 rp_module_flags="!mali !x86"
 

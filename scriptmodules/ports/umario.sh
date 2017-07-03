@@ -11,6 +11,7 @@
 
 rp_module_id="umario"
 rp_module_desc="uMario - Super Mario Bros. Remake"
+rp_module_licence="GPL2 https://raw.githubusercontent.com/jakowskidev/uMario_Jakowski/master/LICENSE"
 rp_module_section="exp"
 
 function depends_umario() {

@@ -11,6 +11,7 @@
 
 rp_module_id="openfodder"
 rp_module_desc="openfodder - Cannon Fodder Engine"
+rp_module_licence="GPL3 https://raw.githubusercontent.com/OpenFodder/openfodder/master/gpl-3.0.txt"
 rp_module_section="exp"
 rp_module_flags="!x86 !mali"
 

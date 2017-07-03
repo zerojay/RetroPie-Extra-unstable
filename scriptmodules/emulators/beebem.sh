@@ -11,6 +11,7 @@
 
 rp_module_id="beebem"
 rp_module_desc="beebem - BBC Micro Emulator"
+rp_module_licence="MIT https://raw.githubusercontent.com/zerojay/beebem/master/COPYING"
 rp_module_section="exp"
 rp_module_flags="!x86 !mali"
 

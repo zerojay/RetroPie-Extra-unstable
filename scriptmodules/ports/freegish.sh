@@ -11,6 +11,7 @@
  
 rp_module_id="freegish"
 rp_module_desc="FreeGish - Gish Clone"
+rp_module_licence="GPL2 https://raw.githubusercontent.com/freegish/freegish/master/COPYING.txt"
 rp_module_section="exp"
 rp_module_flags="!mali !x86"
  

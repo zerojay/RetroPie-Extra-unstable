@@ -11,6 +11,7 @@
 
 rp_module_id="lr-craft"
 rp_module_desc="Craft - a libretro-based Minecraft clone"
+rp_module_licence="MIT https://raw.githubusercontent.com/libretro/Craft/master/LICENSE.md"
 rp_module_section="exp"
 rp_module_flags="!arm"
 

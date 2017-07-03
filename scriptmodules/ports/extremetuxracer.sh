@@ -11,6 +11,7 @@
  
 rp_module_id="extremetuxracer"
 rp_module_desc="ExtremeTuxRacer"
+rp_module_licence="GPL2 https://sourceforge.net/p/extremetuxracer/code/HEAD/tree/trunk/COPYING?format=raw"
 rp_module_section="exp"
 rp_module_flags="!mali !x86"
  
