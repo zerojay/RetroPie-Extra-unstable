@@ -11,6 +11,7 @@
 
 rp_module_id="minetest"
 rp_module_desc="Minetest - Minecraft Clone"
+rp_module_licence="LGPL2.1 https://raw.githubusercontent.com/minetest/minetest_game/master/LICENSE.txt"
 rp_module_section="exp"
 rp_module_flags="!mali !x86"
 
