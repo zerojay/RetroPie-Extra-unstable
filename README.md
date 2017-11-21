@@ -27,6 +27,9 @@ This repository is for holding all of my work that isn't ready for inclusion in 
 - [ ] - umario.sh - Super Mario Bros. Remake - Runs but doesn't scale properly. Fix incoming soon.
 - [ ] - zelda3t.sh - Zelda fangame - Seems to be stuttery and glitchy looking even on an overclocked pi3. Defaults to french.
 
+##### Supplementary
+- [ ] - moonlight.sh - Unfinished, DO NOT USE.
+
 ##### Support Scripts
 - [ ] - exodos-setup.sh - Setup script for adding working eXoDOS collection to EmulationStation - Not completed yet. See https://github.com/zerojay/RetroPie-Extra/issues/76
 
