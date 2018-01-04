@@ -10,6 +10,7 @@ This repository is for holding all of my work that isn't ready for inclusion in 
 
 ##### libretrocores
 - [ ] - lr-craft.sh - libretro-based Minecraft clone - Does not work on Pi due to missing OpenGLES2 support. Would require a version of RetroArch compiled against OpenGL. Not happening.  
+- [ ] - lr-sameboy.sh - Gameboy/Gameboy Color emulator for libretro - Something about how RetroPie-Setup compiles causes this to fail and I'm unsure why. Might be too heavy for Raspberry Pi 3 but seems fine on ODROID XU4.
 
 ##### Ports
 - [ ] - abuse.sh - Classic action game - Appears to have some stability issues as well as problems with sound/audio dropping out. Does not full screen properly yet.  
