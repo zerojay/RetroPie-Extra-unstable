@@ -20,7 +20,7 @@ function depends_openfodder() {
 }
 
 function sources_openfodder() {
-    gitPullOrClone "$md_build" https://github.com/segrax/openfodder.git
+    gitPullOrClone "$md_build" https://github.com/openfodder/openfodder.git
 }
 
 function build_openfodder() {
@@ -31,6 +31,7 @@ function build_openfodder() {
 function install_openfodder() {
     md_ret_files=(
         'Run/OpenFodder'
+        'Run/Campaigns'
         'Run/Data'
         'Run/Saves'
     )
