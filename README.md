@@ -24,6 +24,8 @@ This repository is for holding all of my work that isn't ready for inclusion in 
 - [ ] - minetest.sh - Minecraft Clone - Tested and works with lowest resolution and settings, burningsvideo driver. Embed low options as default?  
 - [ ] - moonlight.sh - Open Source nVidia GameStreaming - A newer package is available, currently untested.  
 - [ ] - openfodder.sh - Open source Cannon Fodder engine - Instable, crashes during second mission.  
+- [ ] - retrobattle.sh - No longer compiles under Stretch. Error is upstream.
+- [ ] - rockbot.sh - Open source Megaman style game - Cannot be compiled on Pi anymore, need new compilatin instructions.
 - [ ] - smw-netplay.sh - Super Mario War with netplay - Crashes before match starts.
 - [ ] - umario.sh - Super Mario Bros. Remake - Runs but doesn't scale properly. Fix incoming soon.
 - [ ] - zelda3t.sh - Zelda fangame - Seems to be stuttery and glitchy looking even on an overclocked pi3. Defaults to french.
