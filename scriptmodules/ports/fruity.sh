@@ -12,16 +12,28 @@
 rp_module_id="fruity"
 rp_module_desc="Fruity"
 rp_module_section="exp"
-rp_module_flags="!x86 !mali"
+rp_module_flags="!mali"
+
+function depends_fruity() {
+    getDepends libsdl-mixer1.2
+}
 
 function install_fruity() {
     wget http://www.retroguru.com/fruity/fruity-v.latest-raspberrypi.zip -O "$md_inst/fruity.zip"
     unzip -n "$md_inst/fruity.zip" -d "$md_inst"
     rm "$md_inst/fruity.zip"
+    mkdir "$home/.fruity"
+    chown -R pi:pi "$home/.fruity"
+    cd "$md_inst"
+    ln -s "$home/.fruity/fruity.cfg" "fruity.cfg"
+    ln -s "$home/.fruity/hiscores.dat" "hiscores.dat"
+    ln -s "$home/.fruity/savegame.dat" "savegame.dat"
+    chown -R pi:pi "$md_inst/"
 }
 
 function configure_fruity() {
-    addPort "$md_id" "fruity" "Fruity" "pushd $md_inst; $md_inst/fruity_rpi/fruity_rpi; popd"
+    addPort "$md_id" "fruity" "Fruity" "pushd $md_inst; $md_inst/fruity_rpi; popd"
 
-    chmod +x "$md_inst/fruity_rpi/fruity_rpi"
+    chmod +x "$md_inst/fruity_rpi"
 }
+
