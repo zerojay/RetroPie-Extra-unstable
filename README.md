@@ -21,6 +21,7 @@ This repository is for holding all of my work that isn't ready for inclusion in 
 - [ ] - freegish.sh - Gish clone - Runs with glshim however very, very slowly. Might need some additional glshim options.  
 - [ ] - fruity.sh - Fruity Game - Cannot load font?
 - [ ] - kodi.sh - Media Player - Installs v16 for Raspbian Jessie ONLY. Currently untested.  
+- [ ] - maelstrom.sh - Classic Mac Asteroids Remake - Fails to compile under Buster, must be fixed upstream. 
 - [ ] - minetest.sh - Minecraft Clone - Tested and works with lowest resolution and settings, burningsvideo driver. Embed low options as default?  
 - [ ] - moonlight.sh - Open Source nVidia GameStreaming - A newer package is available, currently untested.  
 - [ ] - openfodder.sh - Open source Cannon Fodder engine - Instable, crashes during second mission.  
