@@ -14,6 +14,7 @@ rp_module_desc="rockbot - Mega Man clone"
 rp_module_section="exp"
 rp_module_flags="!x11 !mali"
 rp_module_help="To stop the game from flickering like crazy, go into the Config menu, then PC and then set the game to fullscreen with any scaling type. Do not leave scaling set to NONE. Quit the game afterwards and restart it and everything should be fixed."
+
 function depends_rockbot() {
     getDepends libsdl1.2-dev libsdl-gfx1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsdl-image1.2-dev qt5-qmake
 }
@@ -23,7 +24,9 @@ function sources_rockbot() {
 }
 
 function build_rockbot() {
-    qmake -makefile .
+    sed -i 's/CONFIG += playstation2/#CONFIG += playstation2/g' "$md_build/Rockbot.pro"
+    sed -i 's/#CONFIG += raspberry/CONFIG += raspberry/g' "$md_build/Rockbot.pro"
+    qmake
     make
     md_ret_require="$md_build/rockbot"
 }
@@ -34,6 +37,7 @@ function install_rockbot() {
        'build/fonts'
        'build/games'
        'build/shared'
+       'build/template'
        'build/strings_ingame.dat'
     )
 }
